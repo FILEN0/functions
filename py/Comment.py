@@ -1,4 +1,4 @@
-def Comment(string:str,pattern:str="█",width:int = 112):
+def create(string:str,pattern:str="█",width:int = 112):
     string = string.replace("á", "a").replace("Á", "A")
     string = string.replace("é", "e").replace("É", "E")
     string = string.replace("í", "i").replace("Í", "I")
