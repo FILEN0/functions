@@ -1,4 +1,4 @@
-def conversorBase(num,base1:str,base2:str):    
+def convert(num,base1:str,base2:str):    
     base1=str(base1)
     base2=str(base2)
     if (not(base1.isnumeric() or base2.isnumeric())):
